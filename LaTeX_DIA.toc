@@ -1,0 +1,14 @@
+\contentsline {chapter}{\numberline {1}Dia}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Wat is Dia?}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Oorsprong}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Waarom DIA gebruiken?}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Waarom DIA niet gebruiken?}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}Installatie}{6}{section.1.5}
+\contentsline {section}{\numberline {1.6}Gebruik van Dia}{8}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Aanmaken van shapes}{8}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Werken met Dia}{11}{subsection.1.6.2}
+\contentsline {subsubsection}{Het werkveld}{11}{section*.20}
+\contentsline {subsubsection}{Een diagram maken}{12}{section*.22}
+\contentsline {chapter}{\numberline {2}Versiebeheer}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}Wat is GIT?}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aanpassen van de github-directory}{16}{section.2.2}
