@@ -166,8 +166,22 @@ Voor de versiebeheer is er gebruik gemaakt van het programma GIT, te downloaden 
 Git is een vrij gedistribueerd versiebeheersysteem. Het is gemaakt voor de ontwikkeling van de linuxkernel door Linus Torvalds. Iedere GIT werkmap bevat de volledige repository met een compleet historisch overzicht en volledige tracking capaciteiten. In tegenstelling tot CVS of SVN, concurrenten op het gebied van versiebeheer, is GIT niet afhankelijk van een gemeenschappelijke locatie of een centrale server.
 \paragraph*{}
 In dit document is gebruik gemaakt van een repository server van github, al is dit niet nodig en kan het ook locaal worden toegepast.
-\linebreak
 Op \textit{http://help.github.com/win-set-up-git/} is een zeer goede tutorial te vinden voor het installeren en gebruiken van GIT en Github.
+\section*{Aanpassen van de github-directory}
+Voor het toevoegen, bewerken of verwijderen van een bestand moeten een aantal stappen worden doorlopen.
+\paragraph*{1}
+Indien u een bestand wil toevoegen, moet u ervoor Zorgen dat het bestand in de directory staat die u in de tutorial heeft aangemaakt.
+\paragraph*{2}
+Met het commando "git status" zal GIT zoeken naar wijzigingen in de aangeduide directory en deze tonen.
+\paragraph*{3}
+Om een bestand toe te voegen maakt u gebruik van het commando "git add \textit{NAAM VAN HET BESTAND}", om een bestand te verwijderen is het commando "git rm \emph{NAAM VAN HET BESTAND}" van toepassing.
+%\includegraphics[scale=1]{../git_01.png} 
+\paragraph*{4}
+Vervolgens moet u het bestand committen door gebruik te maken van het commando "commit -m "\textit{TITEL VAN DE BEWERKING}""
+%\includegraphics[scale=1]{../git_02.png} 
+\paragraph*{4}
+Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet u via het commando "git push origin master".
+%\includegraphics[scale=1]{../git_03.png} 
 \end{flushleft}
 \end{document}
 
