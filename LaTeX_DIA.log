@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.15)  23 MAY 2012 22:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.15)  23 MAY 2012 22:48
 entering extended mode
 **LaTeX_DIA.tex
 (C:\Users\Ward\Dia\LaTeX_DIA.tex
@@ -191,23 +191,28 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (C:\Users\Ward\Dia\lastpage.sty
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (C:\Users\Ward\Dia\LaTeX_DIA.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+) (C:\Users\Ward\Dia\cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+)
+(C:\Users\Ward\Dia\LaTeX_DIA.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 ("C:\Program Files (x86)\MikTex\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -217,9 +222,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count100
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (C:\Users\Ward\Dia\LaTeX_DIA.out) (C:\Users\Ward\Dia\LaTeX_DIA.out)
 \@outlinefile=\write3
@@ -227,27 +232,27 @@ LaTeX Info: Redefining \nameref on input line 12.
 <images/dia.png, id=51, 351.3125pt x 130.4875pt>
 File: images/dia.png Graphic file (type png)
  <use images/dia.png>
-Package pdftex.def Info: images/dia.png used on input line 23.
+Package pdftex.def Info: images/dia.png used on input line 24.
 (pdftex.def)             Requested size: 351.31163pt x 130.48717pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 29.
+(Font)              <14.4> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 30.
  [1
 
 {C:/Users/Ward/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/War
 d/Dia/images/dia.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 35.
+(Font)              <12> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 36.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \tableofcontents
+l.40 \tableofcontents
                       [1] (C:\Users\Ward\Dia\LaTeX_DIA.toc)
 \tf@toc=\write4
  [2
@@ -267,134 +272,134 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: images/install_01.png Graphic file (type png)
 
 <use images/install_01.png>
-Package pdftex.def Info: images/install_01.png used on input line 94.
+Package pdftex.def Info: images/install_01.png used on input line 95.
 (pdftex.def)             Requested size: 171.26442pt x 54.20236pt.
 
-<images/install_02.png, id=117, 228.855pt x 124.21407pt>
+<images/install_02.png, id=120, 228.855pt x 124.21407pt>
 File: images/install_02.png Graphic file (type png)
 
 <use images/install_02.png>
-Package pdftex.def Info: images/install_02.png used on input line 107.
+Package pdftex.def Info: images/install_02.png used on input line 109.
 (pdftex.def)             Requested size: 171.64082pt x 93.16031pt.
 
-<images/install_03.png, id=118, 386.19281pt x 299.61937pt>
+<images/install_03.png, id=121, 386.19281pt x 299.61937pt>
 File: images/install_03.png Graphic file (type png)
 
 <use images/install_03.png>
-Package pdftex.def Info: images/install_03.png used on input line 113.
+Package pdftex.def Info: images/install_03.png used on input line 115.
 (pdftex.def)             Requested size: 193.09592pt x 149.80931pt.
 
-<images/install_04.png, id=119, 386.94562pt x 300.3722pt>
+<images/install_04.png, id=122, 386.94562pt x 300.3722pt>
 File: images/install_04.png Graphic file (type png)
 
 <use images/install_04.png>
-Package pdftex.def Info: images/install_04.png used on input line 114.
+Package pdftex.def Info: images/install_04.png used on input line 116.
 (pdftex.def)             Requested size: 193.47234pt x 150.18571pt.
 
-<images/install_05.png, id=120, 385.44pt x 298.86656pt>
+<images/install_05.png, id=123, 385.44pt x 298.86656pt>
 File: images/install_05.png Graphic file (type png)
 
 <use images/install_05.png>
-Package pdftex.def Info: images/install_05.png used on input line 119.
+Package pdftex.def Info: images/install_05.png used on input line 121.
 (pdftex.def)             Requested size: 192.71953pt x 149.4329pt.
 
-<images/install_06.png, id=121, 384.6872pt x 298.86656pt>
+<images/install_06.png, id=124, 384.6872pt x 298.86656pt>
 File: images/install_06.png Graphic file (type png)
 
 <use images/install_06.png>
-Package pdftex.def Info: images/install_06.png used on input line 120.
+Package pdftex.def Info: images/install_06.png used on input line 122.
 (pdftex.def)             Requested size: 192.34312pt x 149.4329pt.
  [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.124 \end{figure}
+l.126 \end{figure}
                    <C:/Users/Ward/Dia/images/install_01.png> <C:/Users/Ward/Dia
 /images/install_02.png>] [7pdfTeX warning (ext4): destination with the same ide
 ntifier (name{figure.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 \section
+l.130 \section
               {Gebruik van Dia}pdfTeX warning (ext4): destination with the same
  identifier (name{figure.1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 \section
+l.130 \section
               {Gebruik van Dia} <C:/Users/Ward/Dia/images/install_03.png> <C:/U
 sers/Ward/Dia/images/install_04.png> <C:/Users/Ward/Dia/images/install_05.png> 
 <C:/Users/Ward/Dia/images/install_06.png>]
-<images/shape_01.png, id=140, 155.07938pt x 105.39375pt>
+<images/shape_01.png, id=143, 155.07938pt x 105.39375pt>
 File: images/shape_01.png Graphic file (type png)
 
 <use images/shape_01.png>
-Package pdftex.def Info: images/shape_01.png used on input line 135.
+Package pdftex.def Info: images/shape_01.png used on input line 137.
 (pdftex.def)             Requested size: 155.07898pt x 105.39348pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.142 \paragraph
+l.144 \paragraph
                 *{} <C:/Users/Ward/Dia/images/shape_01.png>]
-<images/shape_02.png, id=148, 392.96812pt x 224.33812pt>
+<images/shape_02.png, id=151, 392.96812pt x 224.33812pt>
 File: images/shape_02.png Graphic file (type png)
 
 <use images/shape_02.png>
-Package pdftex.def Info: images/shape_02.png used on input line 145.
+Package pdftex.def Info: images/shape_02.png used on input line 147.
 (pdftex.def)             Requested size: 392.96715pt x 224.33757pt.
 
-Overfull \hbox (2.96715pt too wide) in paragraph at lines 145--148
+Overfull \hbox (2.96715pt too wide) in paragraph at lines 147--150
  [][] 
  []
 
-<images/shape_03.png, id=149, 329.73187pt x 164.86594pt>
+<images/shape_03.png, id=152, 329.73187pt x 164.86594pt>
 File: images/shape_03.png Graphic file (type png)
 
 <use images/shape_03.png>
-Package pdftex.def Info: images/shape_03.png used on input line 152.
+Package pdftex.def Info: images/shape_03.png used on input line 154.
 (pdftex.def)             Requested size: 329.73105pt x 164.86551pt.
 
-<images/shape_04.png, id=150, 313.17pt x 335.75438pt>
+<images/shape_04.png, id=153, 313.17pt x 335.75438pt>
 File: images/shape_04.png Graphic file (type png)
 
 <use images/shape_04.png>
-Package pdftex.def Info: images/shape_04.png used on input line 163.
+Package pdftex.def Info: images/shape_04.png used on input line 165.
 (pdftex.def)             Requested size: 313.16922pt x 335.75356pt.
  [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \end{figure}
+l.169 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \end{figure}
+l.169 \end{figure}
                    <C:/Users/Ward/Dia/images/shape_02.png> <C:/Users/Ward/Dia/i
 mages/shape_03.png>] [10pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.1.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.172 \subsection
+l.174 \subsection
                  {Werken met Dia} <C:/Users/Ward/Dia/images/shape_04.png>]
-<images/werkveld_01.png, id=166, 603.0028pt x 645.16031pt>
+<images/werkveld_01.png, id=169, 603.0028pt x 645.16031pt>
 File: images/werkveld_01.png Graphic file (type png)
 
 <use images/werkveld_01.png>
-Package pdftex.def Info: images/werkveld_01.png used on input line 176.
+Package pdftex.def Info: images/werkveld_01.png used on input line 178.
 (pdftex.def)             Requested size: 301.50066pt x 322.57936pt.
 
-<images/werkveld_02.png, id=167, 126.4725pt x 505.13719pt>
+<images/werkveld_02.png, id=170, 126.4725pt x 505.13719pt>
 File: images/werkveld_02.png Graphic file (type png)
 
 <use images/werkveld_02.png>
-Package pdftex.def Info: images/werkveld_02.png used on input line 184.
+Package pdftex.def Info: images/werkveld_02.png used on input line 186.
 (pdftex.def)             Requested size: 63.23608pt x 252.56798pt.
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
@@ -403,86 +408,86 @@ Missing character: There is no ¯ in font cmr12!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \subsubsection
+l.193 \subsubsection
                     {Een diagram maken} <C:/Users/Ward/Dia/images/werkveld_01.p
-ng>] <images/voorbeeldschema_elektronisch.png, id=176, 770.88pt x 511.15968pt>
+ng>] <images/voorbeeldschema_elektronisch.png, id=179, 770.88pt x 511.15968pt>
 File: images/voorbeeldschema_elektronisch.png Graphic file (type png)
 
 <use images/voorbeeldschema_elektronisch.png>
 Package pdftex.def Info: images/voorbeeldschema_elektronisch.png used on input 
-line 195.
+line 197.
 (pdftex.def)             Requested size: 385.43906pt x 255.57921pt.
 
-<images/voorbeeldschema_elektrisch.png, id=177, 140.02313pt x 161.10187pt>
+<images/voorbeeldschema_elektrisch.png, id=180, 140.02313pt x 161.10187pt>
 File: images/voorbeeldschema_elektrisch.png Graphic file (type png)
 
 <use images/voorbeeldschema_elektrisch.png>
 Package pdftex.def Info: images/voorbeeldschema_elektrisch.png used on input li
-ne 201.
+ne 203.
 (pdftex.def)             Requested size: 140.02278pt x 161.10147pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.205 \end{figure}
+l.207 \end{figure}
                    <C:/Users/Ward/Dia/images/werkveld_02.png>]
-<images/voorbeeldschema_ERD.png, id=187, 1513.41882pt x 874.32529pt>
+<images/voorbeeldschema_ERD.png, id=190, 1513.41882pt x 874.32529pt>
 File: images/voorbeeldschema_ERD.png Graphic file (type png)
 
 <use images/voorbeeldschema_ERD.png>
-Package pdftex.def Info: images/voorbeeldschema_ERD.png used on input line 207.
+Package pdftex.def Info: images/voorbeeldschema_ERD.png used on input line 209.
 
 (pdftex.def)             Requested size: 378.35378pt x 218.58078pt.
 
-<images/voorbeeldschema_logisch.png, id=188, 121.95563pt x 176.15813pt>
+<images/voorbeeldschema_logisch.png, id=191, 121.95563pt x 176.15813pt>
 File: images/voorbeeldschema_logisch.png Graphic file (type png)
 
 <use images/voorbeeldschema_logisch.png>
 Package pdftex.def Info: images/voorbeeldschema_logisch.png used on input line 
-213.
+215.
 (pdftex.def)             Requested size: 121.9553pt x 176.15768pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.217 \end{figure}
+l.219 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.1.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.217 \end{figure}
+l.219 \end{figure}
                    <C:/Users/Ward/Dia/images/voorbeeldschema_elektronisch.png> 
 <C:/Users/Ward/Dia/images/voorbeeldschema_elektrisch.png>]
-<images/voorbeeldschema_mindmap.png, id=196, 338.01282pt x 173.14688pt>
+<images/voorbeeldschema_mindmap.png, id=199, 338.01282pt x 173.14688pt>
 File: images/voorbeeldschema_mindmap.png Graphic file (type png)
 
 <use images/voorbeeldschema_mindmap.png>
 Package pdftex.def Info: images/voorbeeldschema_mindmap.png used on input line 
-219.
+221.
 (pdftex.def)             Requested size: 338.01198pt x 173.14645pt.
 
-<images/voorbeeldschema_stroomdiagram.png, id=197, 216.81pt x 350.05782pt>
+<images/voorbeeldschema_stroomdiagram.png, id=200, 216.81pt x 350.05782pt>
 File: images/voorbeeldschema_stroomdiagram.png Graphic file (type png)
 
 <use images/voorbeeldschema_stroomdiagram.png>
 Package pdftex.def Info: images/voorbeeldschema_stroomdiagram.png used on input
- line 225.
+ line 227.
 (pdftex.def)             Requested size: 216.80946pt x 350.05695pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.229 \end{figure}
+l.231 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.1.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.229 \end{figure}
+l.231 \end{figure}
                    <C:/Users/Ward/Dia/images/voorbeeldschema_ERD.png> <C:/Users
 /Ward/Dia/images/voorbeeldschema_logisch.png>] [15pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.1.14}) has been already used, dupli
@@ -490,54 +495,54 @@ cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.234 \chapter
+l.236 \chapter
               {Versiebeheer}pdfTeX warning (ext4): destination with the same id
 entifier (name{figure.1.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.234 \chapter
+l.236 \chapter
               {Versiebeheer} <C:/Users/Ward/Dia/images/voorbeeldschema_mindmap.
 png> <C:/Users/Ward/Dia/images/voorbeeldschema_stroomdiagram.png>]
 Chapter 2.
-<images/git_01.png, id=211, 482.55281pt x 44.41594pt>
+<images/git_01.png, id=215, 482.55281pt x 44.41594pt>
 File: images/git_01.png Graphic file (type png)
  <use images/git_01.png>
-Package pdftex.def Info: images/git_01.png used on input line 255.
+Package pdftex.def Info: images/git_01.png used on input line 257.
 (pdftex.def)             Requested size: 361.91371pt x 33.31186pt.
 
 [16
 
-] <images/git_02.png, id=221, 483.30562pt x 85.06781pt>
+] <images/git_02.png, id=225, 483.30562pt x 85.06781pt>
 File: images/git_02.png Graphic file (type png)
 
 <use images/git_02.png>
-Package pdftex.def Info: images/git_02.png used on input line 263.
+Package pdftex.def Info: images/git_02.png used on input line 265.
 (pdftex.def)             Requested size: 362.47833pt x 63.80069pt.
- <images/git_03.png, id=222, 482.55281pt x 106.14656pt>
+ <images/git_03.png, id=226, 482.55281pt x 106.14656pt>
 File: images/git_03.png Graphic file (type png)
 
 <use images/git_03.png>
-Package pdftex.def Info: images/git_03.png used on input line 271.
+Package pdftex.def Info: images/git_03.png used on input line 273.
 (pdftex.def)             Requested size: 361.91371pt x 79.60973pt.
  [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.277 \listoffigures
+l.279 \listoffigures
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.277 \listoffigures
+l.279 \listoffigures
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.277 \listoffigures
+l.279 \listoffigures
                      <C:/Users/Ward/Dia/images/git_01.png> <C:/Users/Ward/Dia/i
 mages/git_02.png> <C:/Users/Ward/Dia/images/git_03.png>]
 (C:\Users\Ward\Dia\LaTeX_DIA.lof
@@ -550,37 +555,37 @@ Missing character: There is no ¯ in font cmr12!
 ] (C:\Users\Ward\Dia\LaTeX_DIA.lot)
 \tf@lot=\write6
 
-AED: lastpage setting LastPage [19
+(C:\Users\Ward\Dia\LaTeX_DIA.bbl [19
+
+]) AED: lastpage setting LastPage [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
- (C:\Users\Ward\Dia\LaTeX_DIA.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
+
+(C:\Users\Ward\Dia\LaTeX_DIA.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `LaTeX_DIA.out' has not changed.
 (rerunfilecheck)             Checksum: 6FA799CB0B3FC288796156AC8E8B3CE0;744.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4929 strings out of 494045
- 73135 string characters out of 3147584
- 153011 words of memory out of 3000000
- 8090 multiletter control sequences out of 15000+200000
- 9761 words of font info for 34 fonts, out of 3000000 for 9000
+ 5035 strings out of 494045
+ 74387 string characters out of 3147584
+ 154124 words of memory out of 3000000
+ 8181 multiletter control sequences out of 15000+200000
+ 9930 words of font info for 35 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  29i,10n,43p,807b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
 Program Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
  Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files 
 (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
-kTex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LaTeX_DIA.pdf (20 pages, 1125928 bytes).
+kTex/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MikTex/f
+onts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on LaTeX_DIA.pdf (21 pages, 1142098 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

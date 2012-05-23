@@ -7,6 +7,7 @@
 \pagestyle{fancy}
 \usepackage{float}
 \usepackage{lastpage}
+\usepackage{cite}
 %\end{}
 
 \begin{document}
@@ -92,16 +93,17 @@ Hieruit kunnen we besluiten dat de grootste redenen om Dia niet te gebruiken, ei
 \section{Installatie}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/install_01.png} 
+\label{install_01}
 \end{figure}
 Download \'e\'en van de volgende bestanden:
 \paragraph*{Ubuntu}
-(\textit{http://dia-installer.de/})\linebreak
+(\textit{http://dia-installer.de/})\ref{install_01}\linebreak
 In Ubuntu is Dia ook simpelweg te installeren via het ubuntu software center.
 \paragraph*{Windows}
-(\textit{http://dia-installer.de/})\linebreak
+(\textit{http://dia-installer.de/})\ref{install_01}\linebreak
 De source packages zijn te downloaden van \textit{http://ftp.gnome.org/pub/gnome/sources/dia/}
 \paragraph*{Mac}
-(\textit{http://dia-installer.de/})\linebreak
+(\textit{http://dia-installer.de/})\ref{install_01}\linebreak
 De source packages zijn te downloaden van \textit{http://ftp.gnome.org/pub/gnome/sources/dia/}
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/install_02.png}
@@ -277,8 +279,16 @@ Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet 
 \listoffigures
 \listoftables
 
+BibTeX ~\cite{BibTeX}.
+LaTeX ~\cite{WikiBooks}.
+Texmaker ~\cite{Texmaker}.
+Gebruikershandleiding voor Dia ~\cite{Dia_Manual}.
+Introductie van Dia ~\cite{Dia_Intro}.
+Eindwerk met hoofdstuk over Dia ~\cite{Dia_Eindwerk}.
+Officiele site van Dia ~\cite{Dia_Official}.
 
-
+\bibliography{LaTeX_DIA}
+\bibliographystyle{plain}
 
 \end{flushleft}
 \end{document}

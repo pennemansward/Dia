@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{Dia_Eindwerk}
+Bert Van~Den Abbeele.
+\newblock Linux op school.
+\newblock
+  \url{http://www.teleco-it.be/on5dtl/Linux/Bert_Van_den_Abbeele-Linux_Op_School.pdf},
+  2005-2006.
+
+\bibitem{Texmaker}
+Pascal Brachet.
+\newblock Texmaker.
+\newblock \url{http://www.xm1math.net/texmaker/doc.html#SECTION11}, 2003.
+
+\bibitem{Dia_Official}
+Dia developers.
+\newblock Officiele site dia.
+\newblock \url{http://projects.gnome.org/dia/}.
+
+\bibitem{BibTeX}
+Alexander Feder.
+\newblock Bibtex.org.
+\newblock \url{http://www.bibtex.org/p}, 2006.
+
+\bibitem{Dia_Manual}
+Judith~Samson Henry~House and Kevin Breit.
+\newblock Dia manual.
+\newblock \url{http://projects.gnome.org/dia/doc/dia-manual.pdf}.
+
+\bibitem{Dia_Intro}
+Steffen Macke.
+\newblock Dia introduction.
+\newblock \url{http://dia-installer.de/doc/en/intro-chapter.html}, 2004-2012.
+
+\bibitem{WikiBooks}
+WikiMedia.
+\newblock Latex.
+\newblock \url{http://nl.wikibooks.org/wiki/LaTeX/Inleiding}, 2010.
+
+\end{thebibliography}
