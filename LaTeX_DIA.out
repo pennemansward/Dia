@@ -7,6 +7,11 @@
 \BOOKMARK [1][-]{section.1.6}{Gebruik van Dia}{chapter.1}% 7
 \BOOKMARK [2][-]{subsection.1.6.1}{Aanmaken van shapes}{section.1.6}% 8
 \BOOKMARK [2][-]{subsection.1.6.2}{Werken met Dia}{section.1.6}% 9
-\BOOKMARK [0][-]{chapter.2}{Versiebeheer}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Wat is GIT?}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{Aanpassen van de github-directory}{chapter.2}% 12
+\BOOKMARK [1][-]{section.1.7}{Concurrentie}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Versiebeheer}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Wat is GIT?}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Aanpassen van de github-directory}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Mailserver}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Wat is Mutt?}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Create mail}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Bash script}{section.3.2}% 17

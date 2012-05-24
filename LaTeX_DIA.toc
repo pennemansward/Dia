@@ -9,6 +9,11 @@
 \contentsline {subsection}{\numberline {1.6.2}Werken met Dia}{11}{subsection.1.6.2}
 \contentsline {subsubsection}{Het werkveld}{11}{section*.20}
 \contentsline {subsubsection}{Een diagram maken}{12}{section*.22}
-\contentsline {chapter}{\numberline {2}Versiebeheer}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}Wat is GIT?}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}Aanpassen van de github-directory}{16}{section.2.2}
+\contentsline {section}{\numberline {1.7}Concurrentie}{16}{section.1.7}
+\contentsline {chapter}{\numberline {2}Versiebeheer}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Wat is GIT?}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aanpassen van de github-directory}{17}{section.2.2}
+\contentsline {chapter}{\numberline {3}Mailserver}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Wat is Mutt?}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Create mail}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Bash script}{22}{subsection.3.2.1}

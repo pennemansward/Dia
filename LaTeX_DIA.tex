@@ -34,6 +34,22 @@
 
 %-----introductie-----
 Dit document is geschreven met behulp van \LaTeX{}. Dit is een reeks makro's ontworpen door Leslei Lamport in 1994. Het is een pakket dat gebruik maakt van de "programmeercode" \TeX{}, ontworpen in 1984 door Donald E. Knuth voor het uitzetten van wiskundige teksten en formules. Het is te vergelijken met HTML. Aangezien \LaTeX{} geen programma is moet er worden gebruik gemaakt van een applicatie om teksten te schrijven. Om deze tekst te schrijven en te compileren wordt er gebruik gemaakt van de programma's Texmaker en MiKTeX.
+
+\begin{table}[H]
+\begin{tabular}{|l || l  l  l|}
+\hline
+gebruikt voor &&& \\
+\hline
+Opdracht & Dia & & \\
+Document & LaTeX & TexMaker & MiKTeX\\
+Versiebeheer & GIT & GITHUB & \\
+MailServer & Mutt & postfix & \\
+Bibliografie & BibTeX & &  \\
+\hline
+\end{tabular}
+\centering
+\caption{gebruikte hulpmiddelen voor deze opdracht}
+\end{table}
 %-----introductie-----
 
 %-----Inhoud-----
@@ -110,16 +126,21 @@ De source packages zijn te downloaden van \textit{http://ftp.gnome.org/pub/gnome
 \centering
 \vspace{-10pt}
 \caption{Installatie van Dia : stap 1}
+\label{install_02}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/install_03.png}
+\label{install_03}
 \includegraphics[scale=0.5]{images/install_04.png}
+\label{install_04}
 \vspace{-25pt}
 \caption{Installatie van Dia : stap 2 \& 3} 
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/install_05.png}
+\label{install_05}
 \includegraphics[scale=0.5]{images/install_06.png}
+\label{install_06}
 \centering 
 \vspace{-25pt}
 \caption{Installatie van Dia : stap 4 \& 5}  
@@ -132,9 +153,10 @@ De source packages zijn te downloaden van \textit{http://ftp.gnome.org/pub/gnome
 \subsection{Aanmaken van shapes}
 Er zijn 2 manieren om een vorm aan te maken in Dia.
 \paragraph*{1}
-De meest eenvoudige manier vergt geen kennis van XML of eenderwelk andere computertaal. Hierbij kan echter enkel een vorm worden gemaakt door verschillende bestaande vormen samen te voegen. Maak de gewenste vorm door verschillende vormen te slepen uit de toolbox. Ga vervolgens in het navigatiemenu bovenaan naar File/Export. Kies in het volgende venster het bestandstype Dia Shape File (*.shape). In het scherm dat u nu ziet, moet u de gewenste grootte van de vorm ingeven. 
+De meest eenvoudige manier vergt geen kennis van XML of eenderwelk andere computertaal. Hierbij kan echter enkel een vorm worden gemaakt door verschillende bestaande vormen samen te voegen. Maak de gewenste vorm door verschillende vormen te slepen uit de toolbox. Ga vervolgens in het navigatiemenu bovenaan naar File/Export. Kies in het volgende venster het bestandstype Dia Shape File (*.shape). In het scherm dat u nu ziet\ref{shape_01}, moet u de gewenste grootte van de vorm ingeven. 
 \begin{figure}[H]
 \includegraphics[scale=1]{images/shape_01.png}
+\label{shape_01}
 \centering
 \vspace{-10pt}
 \caption{nieuwe vorm : formaat instellen}
@@ -142,16 +164,18 @@ De meest eenvoudige manier vergt geen kennis van XML of eenderwelk andere comput
 Druk vervolgens op Export. De vorm is beschikbaar.
 \pagebreak
 \paragraph*{}
-Om de vorm toe te voegen aan een diagram gaat u via het navigatiemenu naar File|Sheets and Objects. In dit vester kiest u in het linker drop-down menu de optie "Civil".
+Om de vorm toe te voegen aan een diagram gaat u via het navigatiemenu naar File|Sheets and Objects. In dit vester kiest u in het linker drop-down menu de optie "Civil".\ref{shape_02}
 \begin{figure}[H]
 \includegraphics[scale=1]{images/shape_02.png}
+\label{shape_02}
 \centering
 \vspace{-25pt}
 \caption{nieuwe vorm : groep selecteren} 
 \end{figure}
-Om de vorm toe te voegen klikt u op de knop "New". In het volgende scherm moet u het pad ingeven van het .shape file. Dit doet u best via de knop "Browse".
+Om de vorm toe te voegen klikt u op de knop "New". In het volgende scherm moet u het pad ingeven van het .shape file. Dit doet u best via de knop "Browse".\ref{shape_03}
 \begin{figure}[H]
 \includegraphics[scale=1]{images/shape_03.png}
+\label{shape_03}
 \centering
 \vspace{-10pt}
 \caption{nieuwe vorm : afbeelding linken} 
@@ -160,9 +184,10 @@ In het tekstvak description geeft u een beschrijving van het object in. Klik op 
 \paragraph*{2}
 De tweede manier vergt enige kennis van XML-code. 
 Maak een bestand aan met notepad, wordpad of een ander tekstbewerkingsprogramma.
-Voer een reeks code in zoals hieronder.
+Voer een reeks code in zoals in figure 1.7\ref{shape_04}.
 \begin{figure}[H]
 \includegraphics[scale=1]{images/shape_04.png}
+\label{shape_04}
 \centering 
 \vspace{-10pt}
 \caption{voorbeeld van XML-code voor een shape}
@@ -173,17 +198,19 @@ Sla dit document op als een *.shape file. Doorloop nu de stappen van de eerste m
 %\begin{subsectie "Werken met Dia"}
 \subsection{Werken met Dia}
 %\begin{subsubsectie "Het werkveld"}
-\subsubsection{Het werkveld}
+\subsubsection{Het werkveld}\ref{werkveld_01}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/werkveld_01.png}
+\label{werkveld_01}
 \centering 
 \vspace{-10pt}
 \caption{Het werkveld van Dia 0.97.2}
 \end{figure}
 \paragraph*{}
-Bovenaan vindt u zoals bij elke applicatie de standaard menubalk met daaronder een menubalk van DIA zelf. Links in het venster staat de werkbalk met de diagrammen in een drop down menu zoals de afbeelding hieronder laat zien. Rechts van de werkbalk bevind zich het echte werkveld waarin u het diagram zal plaatsen.
+Bovenaan vindt u zoals bij elke applicatie de standaard menubalk met daaronder een menubalk van DIA zelf. Links in het venster staat de werkbalk met de diagrammen in een drop down menu zoals de afbeelding hieronder laat zien (figure 1.9)\ref{werkveld_02}. Rechts van de werkbalk bevind zich het echte werkveld waarin u het diagram zal plaatsen.
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/werkveld_02.png}
+\label{werkveld_02}
 \centering 
 \vspace{-10pt}
 \caption{standaard geïmplementeerde diagramsoorten}
@@ -193,38 +220,52 @@ Bovenaan vindt u zoals bij elke applicatie de standaard menubalk met daaronder e
 \subsubsection{Een diagram maken}
 \paragraph*{}
 Een diagram maken in Dia is zeer eenvoudig aangezien alle symbolen in de werkbalk staan. U moet enkel naar het juiste item in het drop-down menu navigeren voor de juiste symbolen. Hieronder enkele voorbeelden van diagrammen, gemaakt in Dia.
+\begin{enumerate}
+\item	elektronisch shema\ref{voorbeeldschema_elektronisch}
+\item	elektrisch schema\ref{voorbeeldschema_elektrisch}
+\item	entity relation diagram\ref{voorbeeldschema_ERD}
+\item	logisch schema\ref{voorbeeldschema_logisch}
+\item	mindmap\ref{voorbeeldschema_mindmap}
+\item	stroomdiagram\ref{voorbeeldschema_stroomdiagram}
+\end{enumerate}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/voorbeeldschema_elektronisch.png}
+\label{voorbeeldschema_elektronisch}
 \centering 
 \vspace{-10pt}
 \caption{elektronisch schema}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=1]{images/voorbeeldschema_elektrisch.png}
+\label{voorbeeldschema_elektrisch}
 \centering 
 \vspace{-10pt}
 \caption{elektrisch schema}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=0.25]{images/voorbeeldschema_ERD.png}
+\label{voorbeeldschema_ERD}
 \centering 
 \vspace{-10pt}
 \caption{Entity Relation Diagram}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=1]{images/voorbeeldschema_logisch.png}
+\label{voorbeeldschema_logisch}
 \centering 
 \vspace{-10pt}
 \caption{logisch schema}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=1]{images/voorbeeldschema_mindmap.png}
+\label{voorbeeldschema_mindmap}
 \centering 
 \vspace{-10pt}
 \caption{mindmap}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=1]{images/voorbeeldschema_stroomdiagram.png}
+\label{voorbeeldschema_stroomdiagram}
 \centering 
 \vspace{-10pt}
 \caption{stroomdiagram}
@@ -232,6 +273,27 @@ Een diagram maken in Dia is zeer eenvoudig aangezien alle symbolen in de werkbal
 %\end{}
 %\end{}
 %\end{}
+%\begin{sectie Concurrentie}
+\section{Concurrentie}
+\begin{table}
+\begin{tabular}{|| l | l | l | p{3cm} ||}
+\hline\hline
+Naam & Creator & Open Source & Programming language used\\
+\hline
+\textbf{Dia} & \textbf{GNOME Office} &  \textbf{Yes} & \textbf{C}\\
+StructuredViews & AgileJ & No & Java\\
+UModel & Altova & No & Java,C\#,Visual basic\\
+UML2 Tools & Eclipse Foundation & Yes & Java\\
+MagicDraw UML & No Magic & No & Java\\
+Visual Paradigm & Visual Paradigm & No & Java\\
+\hline\hline
+\end{tabular}
+\centering
+\caption{Andere UML programma's}
+\end{table}
+%\end{}
+
+
 
 \chapter{Versiebeheer}
 %\begin{sectie "Wat is GIT?"}
@@ -252,30 +314,93 @@ Indien u een bestand wil toevoegen, moet u ervoor Zorgen dat het bestand in de d
 \paragraph*{2}
 Met het commando "git status" zal GIT zoeken naar wijzigingen in de aangeduide directory en deze tonen.
 \paragraph*{3}
-Om een bestand toe te voegen maakt u gebruik van het commando "git add \textit{NAAM VAN HET BESTAND}", om een bestand te verwijderen is het commando "git rm \emph{NAAM VAN HET BESTAND}" van toepassing.
+Om een bestand toe te voegen maakt u gebruik van het commando "git add \textit{NAAM VAN HET BESTAND}"\ref{git_01}, om een bestand te verwijderen is het commando "git rm \emph{NAAM VAN HET BESTAND}" van toepassing.
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/git_01.png}
+\label{git_01}
 \centering 
 \vspace{-10pt}
 \caption{toevoegen van een bestand aan git}
 \end{figure} 
 \paragraph*{4}
-Vervolgens moet u het bestand committen door gebruik te maken van het commando "commit -m "\textit{TITEL VAN DE BEWERKING}""
+Vervolgens moet u het bestand committen door gebruik te maken van het commando "commit -m \textit{TITEL VAN DE BEWERKING}"\ref{git_02}
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/git_02.png}
+\label{git_02}
 \centering 
 \vspace{-10pt}
 \caption{committen van bewerkingen in git}
 \end{figure}  
-\paragraph*{4}
-Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet u via het commando "git push origin master".
+\paragraph*{5}
+Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet u via het commando "git push origin master"\ref{git_03}.
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/git_03.png}
+\label{git_03}
 \centering 
 \vspace{-10pt}
 \caption{bewerkingen doorvoeren naar github}
 \end{figure} 
 %\end{}
+\chapter{Mailserver}
+%\begin{sectie Wat is Mutt?}
+\section{Wat is Mutt?}
+\paragraph*{}
+Voor het configureren van een email-client in linux is er gebruik gemaakt van het programma Mutt, te installeren in de terminal van linux via het commando "sudo apt-get install mutt".
+\paragraph*{}
+Hierdoor worden mutt en postfix automatisch geinstalleerd. Er wordt u gevraagd op welke manier u mutt wil configureren. U kan kiezen tussen een aantal opties. In dit voorbeeld is er gekozen voor de optie "Internet site". Hierna moet u een string-waarde ingeven voor mail, vb. "wardP@linux.be"
+\paragraph*{}
+Verder moeten ook nog de imap-instellingen worden ingevoerd. Dit doet u door een bestand ".muttcr" aan te maken in de directory "ect" en hierin vult volgende tekst:
+\begin{figure}[H]
+\includegraphics[scale=0.75]{images/imap_01.png}
+\label{imap_01}
+\centering 
+\vspace{-10pt}
+\caption{code configuratie imap}
+\end{figure}  
+\pagebreak
+\paragraph*{}
+Om mutt te starten voert u het commando "mutt" in in de terminal.
+\begin{figure}[H]
+\includegraphics[scale=0.75]{images/mutt_01.png}
+\label{mutt_01}
+\centering 
+\vspace{-10pt}
+\caption{beginscherm mutt}
+\end{figure} 
+\pagebreak
+%\begin{subsection create mail}
+\section{Create mail}
+\paragraph*{}
+Bovenaan in het scherm van mutt staan een aantal commando's om specifieke acties uit te voeren, hierbij staat "m" voor een mail opstellen. U wordt gevraagd een email-adres van de gewenste contactpersoon in te geven en het onderwerp van de mail. Hierna krijgt u het volgende scherm te zien.
+\begin{figure}[H]
+\includegraphics[scale=0.75]{images/mutt_02.png}
+\label{mutt_01}
+\centering 
+\vspace{-10pt}
+\caption{mailscherm mutt}
+\end{figure}
+\paragraph*{}
+In dit scherm kan u de inhoud van de mail typen en opmaken via de commando's die onderaan het scherm staan. Als u de mail heeft voltooid, gebruikt u de toetsencombinatie "ctrl+O" om de mail op te slaan. Om de mail te kunnnen versturen moet u uit dit venster, dit verkrijgt u door de toetsencombinatie "ctrl+X".
+\begin{figure}[H]
+\includegraphics[scale=0.75]{images/mutt_03.png}
+\label{mutt_03}
+\centering 
+\vspace{-10pt}
+\caption{samenvatting mail mutt}
+\end{figure}
+\paragraph*{}
+Om de mail te versturen gebruikt u het commando "y".
+\subsection{Bash script}
+Met het bash script mailreviewer.sh (figure 3.5)\ref{bash_01} wordt dit bestand in linux verstuurd naar het e-mail adres dat wordt gevraagd door het script en wordt het bestand hetnoemd naar \textit{voornaamContactpersoon.achternaamContactpersoon.pdf}
+\begin{figure}[H]
+\includegraphics[scale=0.75]{images/bash_01.png}
+\label{bash_01}
+\centering 
+\vspace{-10pt}
+\caption{Bash script opdracht}
+\end{figure}
+%\end{}
+
 \listoffigures
 \listoftables
 
