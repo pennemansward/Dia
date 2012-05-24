@@ -1,5 +1,6 @@
 \documentclass[12pt,a4paper]{report}
 %\begin{usepackages}
+\usepackage[dutch]{babel}
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{hyperref}
@@ -8,6 +9,9 @@
 \usepackage{float}
 \usepackage{lastpage}
 \usepackage{cite}
+\usepackage{makeidx}
+\makeindex
+\usepackage{hyperref}
 %\end{}
 
 \begin{document}
@@ -31,9 +35,8 @@
 %\end{}
 
 \begin{flushleft}
-
 %-----introductie-----
-Dit document is geschreven met behulp van \LaTeX{}. Dit is een reeks makro's ontworpen door Leslei Lamport in 1994. Het is een pakket dat gebruik maakt van de "programmeercode" \TeX{}, ontworpen in 1984 door Donald E. Knuth voor het uitzetten van wiskundige teksten en formules. Het is te vergelijken met HTML. Aangezien \LaTeX{} geen programma is moet er worden gebruik gemaakt van een applicatie om teksten te schrijven. Om deze tekst te schrijven en te compileren wordt er gebruik gemaakt van de programma's Texmaker en MiKTeX.
+Dit document is geschreven met behulp van \LaTeX{}\index{Latex}. Dit is een reeks makro's ontworpen door Leslei Lamport in 1994. Het is een pakket dat gebruik maakt van de "programmeercode" \TeX{}\index{Tex}, ontworpen in 1984 door Donald E. Knuth voor het uitzetten van wiskundige teksten en formules. Het is te vergelijken met HTML\index{HTML}. Aangezien \LaTeX{} geen programma is moet er worden gebruik gemaakt van een applicatie om teksten te schrijven. Om deze tekst te schrijven en te compileren wordt er gebruik gemaakt van de programma's Texmaker\index{TexMaker} en MiKTeX\index{MiKTeX}.
 
 \begin{table}[H]
 \begin{tabular}{|l || l  l  l|}
@@ -60,9 +63,9 @@ Bibliografie & BibTeX & &  \\
 %\begin{sectie "Wat is Dia?"}
 \section{Wat is Dia?}
 \paragraph*{}
-Dia is een gratis en open source applicatie om technische diagrammen te ontwikkelen, en kan objectief worden vergeleken met Visio van Microsoft. Het programma is gebaseerd op het GTK+ principe. GTK+ of GIMP Toolkit is een multiplatform applicatie om gebruikersomgevingen te ontwerpen. Net zoals GTK+ is Dia geschreven in de programmeertaal C. 
+Dia\index{Dia} is een gratis en open source\index{Open source} applicatie om technische diagrammen te ontwikkelen, en kan objectief worden vergeleken met Visio\index{Visio} van Microsoft\index{Microsoft}. Het programma is gebaseerd op het GTK+\index{GTK+} principe. GTK+ of GIMP\index{GIMP} Toolkit is een multiplatform applicatie om gebruikersomgevingen\index{Gebruikersomgevingen} te ontwerpen. Net zoals GTK+ is Dia geschreven in de programmeertaal C\index{C(programmeertaal)}. 
 \paragraph*{}
-Op dit moment heeft Dia een aantal hulpmiddelen om de gewenste schema's eenvoudig te ontwerpen, nl. ERD-schema's(Entity Relationship Diagram, UML diagrammen, stroomdiagrammen, netwerkschema's, elektriciteitsschema's en andere. Een andere, zeer bruikbare eigenschap van Dia is dat het mogelijk is om eenvoudig bestanden op te slaan als en te openen van een XML-document.
+Op dit moment heeft Dia een aantal hulpmiddelen om de gewenste schema's eenvoudig te ontwerpen, nl. ERD-schema's(Entity Relationship Diagram)\index{Entity Relation Diagram (ERD)}, UML diagrammen\index{UML}, stroomdiagrammen, netwerkschema's, elektriciteitsschema's en andere. Een andere, zeer bruikbare eigenschap van Dia is dat het mogelijk is om eenvoudig bestanden op te slaan als en te openen van een XML-document\index{XML}.
 Omdat dia eenvoudig en vriendelijk is in gebruik, kunnen mensen met weinig ervaring er toch eenvoudig met werken. Toch is het programma ook flexibel en krachtig genoeg om de meer ervaren gebruikers toe te laten om zeer geavanceerde schema's te ontwerpen.
 \paragraph*{}
 De laatste versie van Dia op dit moment is 0.97.2, beschikbaar sinds 18/12/2011. Deze versie is te downloaden op \textit{http://dia-installer.de/}.
@@ -71,37 +74,37 @@ De laatste versie van Dia op dit moment is 0.97.2, beschikbaar sinds 18/12/2011.
 %\begin{sectie "Oorsprong"}
 \section{Oorsprong}
 \paragraph*{}
-Dia is ontwikkeld door Alexander Larsson . Hij stopte met het ontwikkelen van Dia en stapte over naar GNOME en andere projecten. Ook zijn opvolger, James Henstridge ging over tot het werken met andere projecten. Hierna werden Cyrille Chepelov en Lars Raeder Clausen hoofd van ontwikkeling van Dia. Het programma wordt onderhouden door een groep van software ontwikkelaars, DIA developers, die bestaat uit Hans Breuer, Steffen Macke en Sameer Sahasrabuddhe.
+Dia is ontwikkeld door Alexander Larsson . Hij stopte met het ontwikkelen van Dia en stapte over naar GNOME\index{GNOME} en andere projecten. Ook zijn opvolger, James Henstridge ging over tot het werken met andere projecten. Hierna werden Cyrille Chepelov en Lars Raeder Clausen hoofd van ontwikkeling van Dia. Het programma wordt onderhouden door een groep van software ontwikkelaars, Dia developers\index{Dia developers}, die bestaat uit Hans Breuer, Steffen Macke en Sameer Sahasrabuddhe.
 %\end{}
 %\begin{sectie "Waarom Dia gebruiken?"}
 \section{Waarom DIA gebruiken?}
 \paragraph*{}
-Dia is een open source software. Hierdoor is het een zeer flexibel programma dat voldoet aan de eisen van verschillende gebruikers. Het grootste voordeel ten opzichte van concurrenten zoals Visio is dat het een gratis software is. Dia maakte in de vorig versies gebruik van single document interface, d.w.z. dat er voor elk schema een nieuw venster wordt geopend. Dit kan zowel positief als negatief zijn. Voor een klein aantal projecten is het eenvoudig dat elk schema een apart venster heeft met een eigen toolbar. Echter indien er tegelijk aan een groot aantal schema's wordt gewerkt, zijn er vele vensters geopend waardoor het onoverzichtelijk kan worden. In de nieuwste versies van dia wordt geen gebruik meer gemaakt van single document interface, maar van tabbladen.
+Dia is een open source software\index{Open source}. Hierdoor is het een zeer flexibel programma dat voldoet aan de eisen van verschillende gebruikers. Het grootste voordeel ten opzichte van concurrenten zoals Visio\index{Visio} is dat het een gratis software is. Dia maakte in de vorig versies gebruik van single document interface\index{Single Document Interface}, d.w.z. dat er voor elk schema een nieuw venster wordt geopend. Dit kan zowel positief als negatief zijn. Voor een klein aantal projecten is het eenvoudig dat elk schema een apart venster heeft met een eigen toolbar. Echter indien er tegelijk aan een groot aantal schema's wordt gewerkt, zijn er vele vensters geopend waardoor het onoverzichtelijk kan worden. In de nieuwste versies van dia wordt geen gebruik meer gemaakt van single document interface, maar van tabbladen.
 \paragraph*{}
-Doordat documenten, aangemaakt in Dia kunnen worden opgeslagen als XML-documenten en andere formaten, kunnen in Dia bestanden die in third party applicaties zijn ontwikkelt worden geopend en ook omgekeerd. Ook kunnen er m.b.v. XML-code vormen worden gegenereerd die men kan gebruiken in Dia. Hierdoor kunnen de diagrammen zelfs met de hand worden aangepast. Hierop komen we later terug.
+Doordat documenten, aangemaakt in Dia kunnen worden opgeslagen als XML-documenten\index{XML} en andere formaten, kunnen in Dia bestanden die in third party applicaties zijn ontwikkelt worden geopend en ook omgekeerd. Ook kunnen er m.b.v. XML-code vormen worden gegenereerd die men kan gebruiken in Dia. Hierdoor kunnen de diagrammen zelfs met de hand worden aangepast. Hierop komen we later terug.
 \paragraph*{}
 Een ander voordeel dat voortkomt uit het gebruik van XML-documenten, is dat de schema's minder geheugen vereisen. Verder kunnen ook grotere schema's van meerdere pagina's worden opgeslagen.
 \paragraph*{}
 Dia kan bestanden opslaan en openen vanuit verscheidene formaten:
 \begin{enumerate}
-\item \textbf{EPS} (Encapsulated PostScript) Een grafisch bestand in de taal PostScript. Gebruikt door Adobe Photoshop en Adobe Illustrator.
-\item \textbf{SVG} (Scalable Vector Graphics) Een op XML gebaseerd bestandsformaat voor statische en dynamische vectorafbeeldingen. Het is aangeraden door W3C en is te vergelijken met Flash.
-\item \textbf{DXF} (Drawing Interchange format) Een bestandsformaat van CAD om gegevens te kunnen uitwisselen tussen AutoCAD(een programma voor het ontwerpen van technische tekeningen, zowel 2D als 3D) en andere programma's.
-\item \textbf{CGM} (Computer Graphics Metafile) Een internationaal gestandaardiseerd bestandsformaat voor 2D vectorgrafieken, rastergrafieken en tekst. Het is opgesteld door ISO/IEC.
-\item \textbf{WMF} (Windows Meta File) Een grafisch bestandsformaat gebruikt in windowssystemen.
-\item \textbf{PNG} (Portable Network Graphics) Een bestandsformaat voor rasterafbeeldingen met verliesloze compressie. 
-\item \textbf{JPEG} (Joint Photographic Experts Group) Een bastandsformaat voor het opslaan van rasterafbeeldingen in digitaal formaat.
-\item \textbf{VDX} Een bestandsformaat van Windows dat kan worden vergeleken met XML. Dit formaat wordt gebruikt voor Visio.
+\item \textbf{EPS} (Encapsulated PostScript)\index{Encapsulated Postscript (EPS)} Een grafisch bestand in de taal PostScript. Gebruikt door Adobe Photoshop en Adobe Illustrator.
+\item \textbf{SVG} (Scalable Vector Graphics)\index{Scalable Vector Graphics (SVG)} Een op XML gebaseerd bestandsformaat voor statische en dynamische vectorafbeeldingen. Het is aangeraden door W3C en is te vergelijken met Flash.
+\item \textbf{DXF} (Drawing Interchange format)\index{Drawing Interchange Format (DXF)} Een bestandsformaat van CAD om gegevens te kunnen uitwisselen tussen AutoCAD(een programma voor het ontwerpen van technische tekeningen, zowel 2D als 3D) en andere programma's.
+\item \textbf{CGM} (Computer Graphics Metafile)\index{Computer Graphics Metafile (CGM)} Een internationaal gestandaardiseerd bestandsformaat voor 2D vectorgrafieken, rastergrafieken en tekst. Het is opgesteld door ISO/IEC.
+\item \textbf{WMF} (Windows Meta File)\index{Windows Meta File (WMF)} Een grafisch bestandsformaat gebruikt in windowssystemen.
+\item \textbf{PNG} (Portable Network Graphics)\index{Portable Network Graphics (PNG)} Een bestandsformaat voor rasterafbeeldingen met verliesloze compressie. 
+\item \textbf{JPEG} (Joint Photographic Experts Group)\index{Joint Photographic Experts Group (JPEG)} Een bastandsformaat voor het opslaan van rasterafbeeldingen in digitaal formaat.
+\item \textbf{VDX} \index{VDX}Een bestandsformaat van Windows dat kan worden vergeleken met XML. Dit formaat wordt gebruikt voor Visio.
 \end{enumerate}
 %\end{}
 %\begin{sectie "Waarom Dia niet gebruiken?"}
 \section{Waarom DIA niet gebruiken?}
 \paragraph*{}
-Dia is niet zo geavanceerd, krachtig en visueel uitgewerkt als andere programma's om diagrammen te ontwerpen zoals Visual Paradigm,... Toch is het voor de meeste gebruikers ruim voldoende door het grote aantal sets van vormen om verschillende diagrammen te ontwerpen en de mogelijkheid om er zelf te ontwerpen. De pictogrammen waaruit een schema in Dia bestaat zijn niet zomaar figuren, ze hebben veel extra informatie. Hierdoor wordt het moelijker om zelf pictogrammen te ontwerpen. 
+Dia is niet zo geavanceerd, krachtig en visueel uitgewerkt als andere programma's om diagrammen te ontwerpen zoals Visual Paradigm\index{Visual Paradigm},... Toch is het voor de meeste gebruikers ruim voldoende door het grote aantal sets van vormen om verschillende diagrammen te ontwerpen en de mogelijkheid om er zelf te ontwerpen. De pictogrammen waaruit een schema in Dia bestaat zijn niet zomaar figuren, ze hebben veel extra informatie. Hierdoor wordt het moelijker om zelf pictogrammen te ontwerpen. 
 \paragraph*{} 
-De schema's die men kan ontwerpen in Dia zijn niet heel visueel. Gebruikers die een beter ogend diagram willen kunnen best het schema ontwerpen in Dia en daarna met een programma zoals Inkscape bewerken. 
+De schema's die men kan ontwerpen in Dia zijn niet heel visueel. Gebruikers die een beter ogend diagram willen kunnen best het schema ontwerpen in Dia en daarna met een programma zoals Inkscape\index{Inkscape} bewerken. 
 \paragraph*{}
-Een laatste belangrijk nadeel aan het gebruik van Dia is dat er relatief weinig updates vrijkomen. Echter omdat er zelf pictogrammen kunnen worden aangemaakt en aangezien het programma open source is kunnen de meer geavanceerde gebruikers (met kennis van C en XML) zeker vlot verder.
+Een laatste belangrijk nadeel aan het gebruik van Dia is dat er relatief weinig updates vrijkomen. Echter omdat er zelf pictogrammen kunnen worden aangemaakt en aangezien het programma open source is kunnen de meer geavanceerde gebruikers (met kennis van C\index{C(programmeertaal)} en XML\index{XML}) zeker vlot verder.
 \paragraph*{}
 Hieruit kunnen we besluiten dat de grootste redenen om Dia niet te gebruiken, eigenlijk geen nadeel zijn en het toch wel een zeer aantrekkelijk programma is.
 %\end{}
@@ -153,7 +156,7 @@ De source packages zijn te downloaden van \textit{http://ftp.gnome.org/pub/gnome
 \subsection{Aanmaken van shapes}
 Er zijn 2 manieren om een vorm aan te maken in Dia.
 \paragraph*{1}
-De meest eenvoudige manier vergt geen kennis van XML of eenderwelk andere computertaal. Hierbij kan echter enkel een vorm worden gemaakt door verschillende bestaande vormen samen te voegen. Maak de gewenste vorm door verschillende vormen te slepen uit de toolbox. Ga vervolgens in het navigatiemenu bovenaan naar File/Export. Kies in het volgende venster het bestandstype Dia Shape File (*.shape). In het scherm dat u nu ziet\ref{shape_01}, moet u de gewenste grootte van de vorm ingeven. 
+De meest eenvoudige manier vergt geen kennis van XML of eenderwelk andere computertaal. Hierbij kan echter enkel een vorm worden gemaakt door verschillende bestaande vormen samen te voegen. Maak de gewenste vorm door verschillende vormen te slepen uit de toolbox. Ga vervolgens in het navigatiemenu bovenaan naar File/Export. Kies in het volgende venster het bestandstype Dia Shape File\index{shape file} (*.shape). In het scherm dat u nu ziet\ref{shape_01}, moet u de gewenste grootte van de vorm ingeven. 
 \begin{figure}[H]
 \includegraphics[scale=1]{images/shape_01.png}
 \label{shape_01}
@@ -221,12 +224,12 @@ Bovenaan vindt u zoals bij elke applicatie de standaard menubalk met daaronder e
 \paragraph*{}
 Een diagram maken in Dia is zeer eenvoudig aangezien alle symbolen in de werkbalk staan. U moet enkel naar het juiste item in het drop-down menu navigeren voor de juiste symbolen. Hieronder enkele voorbeelden van diagrammen, gemaakt in Dia.
 \begin{enumerate}
-\item	elektronisch shema\ref{voorbeeldschema_elektronisch}
-\item	elektrisch schema\ref{voorbeeldschema_elektrisch}
-\item	entity relation diagram\ref{voorbeeldschema_ERD}
-\item	logisch schema\ref{voorbeeldschema_logisch}
-\item	mindmap\ref{voorbeeldschema_mindmap}
-\item	stroomdiagram\ref{voorbeeldschema_stroomdiagram}
+\item	elektronisch shema\ref{voorbeeldschema_elektronisch}\index{elektronisch schema}
+\item	elektrisch schema\ref{voorbeeldschema_elektrisch}\index{elektrisch schema}
+\item	entity relation diagram\ref{voorbeeldschema_ERD}\index{ERD schema}
+\item	logisch schema\ref{voorbeeldschema_logisch}\index{logisch schema}
+\item	mindmap\ref{voorbeeldschema_mindmap}\index{mindmap}
+\item	stroomdiagram\ref{voorbeeldschema_stroomdiagram}\index{stroomschema}
 \end{enumerate}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{images/voorbeeldschema_elektronisch.png}
@@ -299,22 +302,22 @@ Visual Paradigm & Visual Paradigm & No & Java\\
 %\begin{sectie "Wat is GIT?"}
 \section{Wat is GIT?}
 \paragraph*{}
-Voor de toepassing van versiebeheer is er gebruik gemaakt van het programma GIT, te downloaden van http://git-scm.com/downloads.
+Voor de toepassing van versiebeheer\index{versiebeheer} is er gebruik gemaakt van het programma GIT\index{GIT}, te downloaden van http://git-scm.com/downloads.
 \paragraph*{}
-Git is een vrij gedistribueerd versiebeheersysteem. Het is gemaakt voor de ontwikkeling van de linuxkernel door Linus Torvalds. Iedere GIT werkmap bevat de volledige repository met een compleet historisch overzicht en volledige tracking capaciteiten. In tegenstelling tot CVS of SVN, concurrenten op het gebied van versiebeheer, is GIT niet afhankelijk van een gemeenschappelijke locatie of een centrale server.
+Git is een vrij gedistribueerd versiebeheersysteem. Het is gemaakt voor de ontwikkeling van de linuxkernel\index{linuxkernel} door Linus Torvalds. Iedere GIT werkmap bevat de volledige repository\index{repository} met een compleet historisch overzicht en volledige tracking capaciteiten. In tegenstelling tot CVS\index{CVS} of SVN\index{SVN}, concurrenten op het gebied van versiebeheer, is GIT\index{GIT} niet afhankelijk van een gemeenschappelijke locatie of een centrale server.
 \paragraph*{}
-In dit document is gebruik gemaakt van een repository server van github, al is dit niet nodig en kan het ook locaal worden toegepast.
-Op \textit{http://help.github.com/win-set-up-git/} is een zeer goede tutorial te vinden voor het installeren en gebruiken van GIT en Github.
+In dit document is gebruik gemaakt van een repository server van GitHub\index{GitHub}, al is dit niet nodig en kan het ook locaal worden toegepast.
+Op \textit{http://help.github.com/win-set-up-git/} is een zeer goede tutorial te vinden voor het installeren en gebruiken van GIT\index{GIT} en Github\index{GitHub}.
 %\end{}
 %\begin{sectie "Aanpassen van de github-directory"}
-\section{Aanpassen van de github-directory}
+\section{Aanpassen van de GitHub-directory}\index{GitHub-directory}
 Voor het toevoegen, bewerken of verwijderen van een bestand moeten een aantal stappen worden doorlopen.
 \paragraph*{1}
 Indien u een bestand wil toevoegen, moet u ervoor Zorgen dat het bestand in de directory staat die u in de tutorial heeft aangemaakt.
 \paragraph*{2}
-Met het commando "git status" zal GIT zoeken naar wijzigingen in de aangeduide directory en deze tonen.
+Met het commando "git status"\index{git status} zal GIT\index{GIT} zoeken naar wijzigingen in de aangeduide directory en deze tonen.
 \paragraph*{3}
-Om een bestand toe te voegen maakt u gebruik van het commando "git add \textit{NAAM VAN HET BESTAND}"\ref{git_01}, om een bestand te verwijderen is het commando "git rm \emph{NAAM VAN HET BESTAND}" van toepassing.
+Om een bestand toe te voegen maakt u gebruik van het commando "git add \index{git add} \textit{NAAM VAN HET BESTAND}"\ref{git_01}, om een bestand te verwijderen is het commando "git rm \index{git rm}\emph{NAAM VAN HET BESTAND}" van toepassing.
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/git_01.png}
 \label{git_01}
@@ -323,7 +326,7 @@ Om een bestand toe te voegen maakt u gebruik van het commando "git add \textit{N
 \caption{toevoegen van een bestand aan git}
 \end{figure} 
 \paragraph*{4}
-Vervolgens moet u het bestand committen door gebruik te maken van het commando "commit -m \textit{TITEL VAN DE BEWERKING}"\ref{git_02}
+Vervolgens moet u het bestand committen door gebruik te maken van het commando "git commit \index{git commit} -m \textit{TITEL VAN DE BEWERKING}"\ref{git_02}
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/git_02.png}
 \label{git_02}
@@ -332,7 +335,7 @@ Vervolgens moet u het bestand committen door gebruik te maken van het commando "
 \caption{committen van bewerkingen in git}
 \end{figure}  
 \paragraph*{5}
-Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet u via het commando "git push origin master"\ref{git_03}.
+Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet u via het commando "git push\index{git push} origin master"\ref{git_03}.
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/git_03.png}
 \label{git_03}
@@ -345,9 +348,9 @@ Ten slotte moet de wijziging worden doorgevoerd naar de github server. Dit doet 
 %\begin{sectie Wat is Mutt?}
 \section{Wat is Mutt?}
 \paragraph*{}
-Voor het configureren van een email-client in linux is er gebruik gemaakt van het programma Mutt, te installeren in de terminal van linux via het commando "sudo apt-get install mutt".
+Voor het configureren van een email-client\index{e-mail client} in linux\index{Linux} is er gebruik gemaakt van het programma Mutt\index{Mutt}, te installeren in de terminal van linux via het commando "sudo apt-get install mutt".
 \paragraph*{}
-Hierdoor worden mutt en postfix automatisch geinstalleerd. Er wordt u gevraagd op welke manier u mutt wil configureren. U kan kiezen tussen een aantal opties. In dit voorbeeld is er gekozen voor de optie "Internet site". Hierna moet u een string-waarde ingeven voor mail, vb. "wardP@linux.be"
+Hierdoor worden mutt en postfix\index{postfix} automatisch geinstalleerd. Er wordt u gevraagd op welke manier u mutt\index{mutt} wil configureren. U kan kiezen tussen een aantal opties. In dit voorbeeld is er gekozen voor de optie "Internet site". Hierna moet u een string-waarde ingeven voor mail, vb. "wardP@linux.be"
 \paragraph*{}
 Verder moeten ook nog de imap-instellingen worden ingevoerd. Dit doet u door een bestand ".muttcr" aan te maken in de directory "ect" en hierin vult volgende tekst:
 \begin{figure}[H]
@@ -391,7 +394,7 @@ In dit scherm kan u de inhoud van de mail typen en opmaken via de commando's die
 \paragraph*{}
 Om de mail te versturen gebruikt u het commando "y".
 \subsection{Bash script}
-Met het bash script mailreviewer.sh (figure 3.5)\ref{bash_01} wordt dit bestand in linux verstuurd naar het e-mail adres dat wordt gevraagd door het script en wordt het bestand hetnoemd naar \textit{voornaamContactpersoon.achternaamContactpersoon.pdf}
+Met het bash script\index{bash script} mailreviewer.sh (figure 3.5)\ref{bash_01} wordt dit bestand in linux\index{Linux} verstuurd naar het e-mail adres dat wordt gevraagd door het script en wordt het bestand hetnoemd naar \textit{voornaamContactpersoon.achternaamContactpersoon.pdf}
 \begin{figure}[H]
 \includegraphics[scale=0.75]{images/bash_01.png}
 \label{bash_01}
@@ -414,6 +417,7 @@ Officiele site van Dia ~\cite{Dia_Official}.
 
 \bibliography{LaTeX_DIA}
 \bibliographystyle{plain}
+\printindex
 
 \end{flushleft}
 \end{document}
